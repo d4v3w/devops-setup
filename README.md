@@ -8,3 +8,12 @@ All scripts based on local development enironment, not all paths and links will 
 **Have fun and happy coding**
 
 - Dave
+
+
+
+# Run commands
+1. env VERSION=`python tools/getnodeversion.py` make install DESTDIR=`nvm_version_path v$VERSION` PREFIX=""
+1. nvm install node
+1. sudo yum install gcc g++ make
+
+
